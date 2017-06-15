@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/start/index",
+    //"pages/start/index",
     "pages/index/index",
     "pages/classify/index",
     "pages/cart/index",
@@ -32,12 +32,12 @@
     "selectedColor": "#479de6",
     "borderStyle": "white",
     "backgroundColor": "#fff",
-    "list": [{
+    "list": [/*{
       "pagePath": "pages/index/index",
       "iconPath": "assets/images/iconfont-home.png",
       "selectedIconPath": "assets/images/iconfont-home-active.png",
       "text": "主页"
-    }, {
+    },*/ {
       "pagePath": "pages/classify/index",
       "iconPath": "assets/images/iconfont-list.png",
       "selectedIconPath": "assets/images/iconfont-list-active.png",
