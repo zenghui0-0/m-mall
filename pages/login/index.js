@@ -12,7 +12,7 @@ Page({
     	})
     	token && setTimeout(this.goIndex, 1500)
     },
-    //这里需要一个模态弹窗
+    //这里需要一个模态弹窗，征询用户登录意见
     login() {
     	this.signIn(this.goIndex)
     },
