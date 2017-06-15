@@ -4,15 +4,8 @@ Page({
 	data: {
 		logged: !1
 	},
-    onLoad() {},
-    onShow() {
-    	const token = App.WxService.getStorageSync('token')
-    	this.setData({
-    		logged: !!token
-    	})
-    	token && setTimeout(this.goIndex, 1500)
-    },
-    /*这里需要一个模态弹窗，征询用户登录意见
+    onLoad() {
+       /*这里需要一个模态弹窗，征询用户登录意见
 	wx.showModal({  
             title: '提示',  
             content: '这是一个模态弹窗',  
@@ -24,6 +17,15 @@ Page({
                 }  
             }  
         }) */
+    },
+    onShow() {
+    	const token = App.WxService.getStorageSync('token')
+    	this.setData({
+    		logged: !!token
+    	})
+    	token && setTimeout(this.goIndex, 1500)
+    },
+ 
     login() {
     	this.signIn(this.goIndex)
     },
