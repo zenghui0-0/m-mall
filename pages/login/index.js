@@ -12,7 +12,18 @@ Page({
     	})
     	token && setTimeout(this.goIndex, 1500)
     },
-    //这里需要一个模态弹窗，征询用户登录意见
+    /*这里需要一个模态弹窗，征询用户登录意见
+	wx.showModal({  
+            title: '提示',  
+            content: '这是一个模态弹窗',  
+            success: function(res) {  
+                if (res.confirm) {  
+                console.log('用户点击确定')  
+                } else if (res.cancel) {  
+                console.log('用户点击取消')  
+                }  
+            }  
+        }) */
     login() {
     	this.signIn(this.goIndex)
     },
