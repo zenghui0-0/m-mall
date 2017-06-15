@@ -12,6 +12,7 @@ Page({
     	})
     	token && setTimeout(this.goIndex, 1500)
     },
+    //这里需要一个模态弹窗
     login() {
     	this.signIn(this.goIndex)
     },
