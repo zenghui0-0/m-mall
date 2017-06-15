@@ -19,8 +19,9 @@ Page({
             url: '/pages/index/index'
         })
     },
-    //add a function to get user location??
+    /*add a function to get user location??
     goLogin() {
         App.WxService.redirectTo('/pages/login/index')
     },
+    */
 })
