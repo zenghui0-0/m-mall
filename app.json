@@ -1,6 +1,6 @@
 {
   "pages": [
-    //"pages/start/index",
+    "pages/start/index",
     "pages/index/index",
     "pages/classify/index",
     "pages/cart/index",
